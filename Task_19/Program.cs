@@ -9,7 +9,7 @@
 // 23432 -> да
 
 Console.WriteLine("Input a five-digit number :");
-string m = (Console.ReadLine());           
+string m = Console.ReadLine();           
 char[] arr = m.ToCharArray(); //Converting a number to an array of digits
 int i = arr.Length;    
 
